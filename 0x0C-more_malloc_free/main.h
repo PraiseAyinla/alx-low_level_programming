@@ -8,3 +8,7 @@ int is_digit(char *s);
 int _strlen(char *s);
 void errors(void);
 int main(int argc, char *argv[]);
+int _atoi_digit(char x);
+int _isNumber(char *argv);
+void *mul_array(char *a1, int len1, char a2, char *a3, int lena);
+void print_array(char *a, int nb);
